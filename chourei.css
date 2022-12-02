@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+    width: 1200px;
+    margin-right:auto;
+    margin-left: auto;
+    font-size: 180%
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .container {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .clock {
+    font-family: 'share Tech Mono', monospace;
+    color: #daf6ff;
+    text-shadow: 0 0 20px #0aafe6;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .clock-date {
+    font-size: 25px;
+  }
+
+  .clock-time {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .clock-date {
+      font-size:  5vw;
+    }
+    .clock-time {
+      font-size: 20vw;
+    }
+  }
+
+  button1 {
+    width: 300px;
+    appearance: none;
+    border: 20;
+    border-radius: 100px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 150%;
+  }
+
+  p {
+    width: 250px;
+    margin-right:auto;
+    margin-left: auto;
+    appearance: none;
+    border: 20;
+    border-radius: 100px;
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 200%;
+  }
+
+  button2 {
+    width: 300px;
+    appearance: none;
+    border: 20;
+    border-radius: 100px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 100%;
